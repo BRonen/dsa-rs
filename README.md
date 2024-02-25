@@ -1,2 +1,3 @@
-# dsa-rs
+# DSA-rs
+
 Data structures and algorithms in rust
