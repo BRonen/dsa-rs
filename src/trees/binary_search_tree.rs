@@ -33,8 +33,6 @@ fn should_create_binary_search_tree() {
         tree = tree.insert(i);
     }
 
-    println!("{:?}", tree);
-
     assert_eq!(
         tree,
         Tree::Node(

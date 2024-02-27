@@ -31,7 +31,6 @@ impl Tree<i32> {
 #[test]
 fn should_create_binary_tree() {
     let tree = Tree::new(vec![1, 2, 3, 4]);
-    println!("{:?}", tree);
 
     assert_eq!(
         tree,
@@ -68,7 +67,6 @@ fn should_create_big_binary_tree() {
         17, 18, 19, 20, 21, 22, 23, 24,
         25, 26, 27, 28, 29, 30, 31, 32
     ]);
-    println!("{:?}", tree);
 
     assert_eq!(
         tree,
